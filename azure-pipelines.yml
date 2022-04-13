@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: my pool
+  image: ubuntu-latest
 
 steps:
 - task: NodeTool@0
